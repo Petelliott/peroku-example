@@ -2,6 +2,6 @@ language: generic
 
 deploy:
   provider: script
-  script: curl https://raw.githubusercontent.com/Petelliott/peroku/deploy/deploy.sh | bash -s https://peroku.pelliott.ca peroku-example Host:example.pelliott.ca
+  script: curl https://raw.githubusercontent.com/Petelliott/peroku/master/deploy.sh | bash -s https://peroku.pelliott.ca peroku-example Host:example.pelliott.ca
   on:
     branch: master
